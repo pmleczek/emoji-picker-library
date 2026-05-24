@@ -1,0 +1,91 @@
+# Dependencies
+node_modules/
+
+# Package managers
+.pnpm-store/
+.npm/
+.yarn/
+.yarn-cache/
+.yarnrc.yml
+
+# Build output
+dist/
+build/
+out/
+lib/
+coverage/
+.tmp/
+.temp/
+
+# TypeScript
+*.tsbuildinfo
+
+# React / Next / Vite / CRA
+.next/
+.vercel/
+.vite/
+.cache/
+.eslintcache
+
+# React Native / Expo
+.expo/
+.expo-shared/
+android/.gradle/
+android/app/build/
+android/build/
+ios/build/
+ios/Pods/
+ios/DerivedData/
+
+# Metro bundler
+.metro-health-check*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Testing
+coverage/
+.nyc_output/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
+
+# Generated files
+*.tgz
+
+# Optional: local configs
+.local/

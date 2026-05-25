@@ -1,0 +1,15 @@
+{
+  "name": "emoji-picker-library",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "@types/react": "catalog:",
+    "react": "catalog:",
+    "react-native": "catalog:",
+    "typescript": "catalog:"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": ">=72.0.0"
+  }
+}

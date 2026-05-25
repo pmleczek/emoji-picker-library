@@ -1,0 +1,22 @@
+{
+  "name": "emoji-picker-library",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.tsx",
+  "types": "./src/index.tsx",
+  "exports": {
+    "default": "./src/index.tsx",
+    "types": "./src/index.tsx"
+  },
+  "devDependencies": {
+    "@types/react": "catalog:",
+    "react": "catalog:",
+    "react-native": "catalog:",
+    "typescript": "catalog:"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": ">=72.0.0"
+  }
+}

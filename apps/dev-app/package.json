@@ -1,7 +1,8 @@
 {
   "name": "dev-app",
-  "main": "expo-router/entry",
   "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
   "dependencies": {
     "@expo/ui": "~56.0.13",
     "expo": "~56.0.4",
@@ -38,6 +39,5 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "expo lint"
-  },
-  "private": true
+  }
 }

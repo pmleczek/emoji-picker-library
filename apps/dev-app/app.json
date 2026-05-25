@@ -8,7 +8,8 @@
     "scheme": "devapp",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "io.github.pmleczek.emoji-picker-library.dev-app"
     },
     "android": {
       "adaptiveIcon": {
@@ -17,6 +18,7 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
+      "package": "io.github.pmleczek.emoji_picker_library.dev_app",
       "predictiveBackGestureEnabled": false
     },
     "web": {

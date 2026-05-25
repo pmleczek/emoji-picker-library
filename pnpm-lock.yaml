@@ -108,7 +108,13 @@ importers:
         specifier: ~6.0.3
         version: 6.0.3
 
+  packages/emoji-data: {}
+
   packages/emoji-picker-library:
+    dependencies:
+      emoji-data:
+        specifier: workspace:*
+        version: link:../emoji-data
     devDependencies:
       '@types/react':
         specifier: 'catalog:'
